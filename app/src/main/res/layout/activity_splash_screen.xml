@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_gray">
+
+    <ImageView
+        android:id="@+id/footstepsImageView"
+        android:layout_width="356dp"
+        android:layout_height="278dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/footsteps"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="272dp"
+        android:layout_height="58dp"
+        android:text="@string/app_name"
+        android:textColor="@color/lavender"
+        android:textSize="44sp"
+        app:layout_constraintBottom_toTopOf="@+id/footstepsImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.676"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.502" />
+
+    <TextView
+        android:id="@+id/made_with_love_text"
+        android:layout_width="224dp"
+        android:layout_height="69dp"
+        android:padding="8dp"
+        android:text="Made with  ❤️  by \nLakshmi Narayana Naidu"
+        android:textColor="@color/lavender"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/footstepsImageView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

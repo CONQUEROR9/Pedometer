@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "628446626447",
+    "project_id": "pedometer-468cd",
+    "storage_bucket": "pedometer-468cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628446626447:android:1804d5785009ad465266fa",
+        "android_client_info": {
+          "package_name": "com.lakshminarayana.pedometer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628446626447-jh403ru02sv0vmltkeemr90o9k9hbn35.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5KoiYGWzg6x3Fmp0arJc-SILTO09nYYE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628446626447-jh403ru02sv0vmltkeemr90o9k9hbn35.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
